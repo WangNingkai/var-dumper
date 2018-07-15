@@ -1,0 +1,24 @@
+{
+    "name": "wangningkai/var-dumper",
+    "description": "基于symfony/var-dumper输出助手函数",
+    "keywords": [
+        "var_dump",
+        "dd()&dump()",
+        "debug"
+    ],
+    "license": "MIT",
+    "authors": [{
+        "name": "WangNingkai",
+        "email": "ningkai.wang@live.com"
+    }],
+    "require": {
+        "php": "^7.1.3",
+        "symfony/var-dumper": "^4.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "WangNingkai\\VarDumper\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
