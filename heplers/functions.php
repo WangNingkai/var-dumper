@@ -1,8 +1,8 @@
 <?php
 
- use WangNingkai\VarDumper\Dumper;
+use WangNingkai\VarDumper\Dumper;
 
- if (! function_exists('dd')) {
+if (! function_exists('dd')) {
     /**
      * Dump the passed variables and end the script.
      *
