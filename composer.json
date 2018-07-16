@@ -3,7 +3,6 @@
     "description": "基于symfony/var-dumper输出助手函数",
     "keywords": [
         "var_dump",
-        "dd()&dump()",
         "debug"
     ],
     "license": "MIT",

@@ -48,3 +48,58 @@
 
 #### 将其加入到项目的全局函数中去
 
+#### 在其他文件中可以参考下面
+
+```php
+
+<?php
+
+require __DIR__.'/vendor/autoload.php';
+
+function dd($args)
+{
+    /**
+    * Dump the passed variables and end the script.
+    *
+    * @param  mixed
+    * @return void
+    */
+    foreach ($args as $var) {
+        (new Dumper)->dump($var);
+    }
+    die(1);
+
+}
+
+/**
+ * Dump the passed array variables and end the script.
+ *
+ * @param  mixed
+    * @return void
+    */
+function dda($args)
+{
+    foreach ($args as $var) {
+        (new Dumper)->dump($var->toArray());
+    }
+    die(1);
+}
+
+
+$var = array(
+
+    'a simple string' => 'in an array of 5 elements',
+
+    'a float' => 1.0,
+
+    'an integer' => 1,
+
+    'a boolean' => true,
+
+    'an empty array' => array(),
+
+);
+
+dd($var);
+
+```
