@@ -56,34 +56,8 @@
 
 require __DIR__.'/vendor/autoload.php';
 
-function dd($args)
-{
-    /**
-    * Dump the passed variables and end the script.
-    *
-    * @param  mixed
-    * @return void
-    */
-    foreach ($args as $var) {
-        (new Dumper)->dump($var);
-    }
-    die(1);
+use WangNingkai\VarDumper\Vardumper;
 
-}
-
-/**
- * Dump the passed array variables and end the script.
- *
- * @param  mixed
-    * @return void
-    */
-function dda($args)
-{
-    foreach ($args as $var) {
-        (new Dumper)->dump($var->toArray());
-    }
-    die(1);
-}
 
 
 $var = array(
@@ -100,6 +74,6 @@ $var = array(
 
 );
 
-dd($var);
+Vardumper::dd($var);
 
 ```
