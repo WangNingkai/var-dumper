@@ -1,5 +1,12 @@
 > VarDumper组件提供的是能够遍历任意PHP变量的架构。它基于dump()函数提供了更好的体验，你可以用它取代var_dump()。它基于symfony/var-dumper
 
+==================
+
+[![Latest Stable Version](https://poser.pugx.org/wangningkai/var-dumper/v/stable)](https://packagist.org/packages/wangningkai/var-dumper)
+[![Total Downloads](https://poser.pugx.org/wangningkai/var-dumper/downloads)](https://packagist.org/packages/wangningkai/var-dumper)
+[![Latest Unstable Version](https://poser.pugx.org/wangningkai/var-dumper/v/unstable)](https://packagist.org/packages/wangningkai/var-dumper)
+[![License](https://poser.pugx.org/wangningkai/var-dumper/license)](https://packagist.org/packages/wangningkai/var-dumper)
+
 ## 安装方法 :
 
     composer require wangningkai/var-dumper
