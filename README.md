@@ -1,5 +1,4 @@
-> VarDumper组件提供的是能够遍历任意PHP变量的架构。它基于dump()函数提供了更好的体验，你可以用它取代var_dump()。它基于symfony/var-dumper
-
+VarDumper组件提供的是能够遍历任意PHP变量的架构。它基于dump()函数提供了更好的体验，你可以用它取代var_dump()。它基于symfony/var-dumper
 ==================
 
 [![Latest Stable Version](https://poser.pugx.org/wangningkai/var-dumper/v/stable)](https://packagist.org/packages/wangningkai/var-dumper)
