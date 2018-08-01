@@ -3,7 +3,7 @@ namespace WangNingkai\VarDumper;
 
 use WangNingkai\VarDumper\Dumper;
 
-class VarDumper
+class VarDump
 {
     public static function dump()
     {

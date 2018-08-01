@@ -63,7 +63,7 @@
 
 require __DIR__.'/vendor/autoload.php';
 
-use WangNingkai\VarDumper\Vardumper;
+use WangNingkai\VarDumper\Vardump;
 
 
 
