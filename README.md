@@ -81,6 +81,6 @@ $var = array(
 
 );
 
-Vardumper::dd($var);
+Vardump::dd($var);
 
 ```
