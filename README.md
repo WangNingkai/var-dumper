@@ -62,9 +62,6 @@ VarDumper组件提供的是能够遍历任意PHP变量的架构。它基于dump(
 
 require __DIR__.'/vendor/autoload.php';
 
-use WangNingkai\VarDumper\Vardump;
-
-
 
 $var = array(
 
@@ -80,6 +77,6 @@ $var = array(
 
 );
 
-Vardump::dd($var);
+dd($var);
 
 ```
